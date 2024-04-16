@@ -1,0 +1,49 @@
+#include "SurvivalPack\Fncs\FoodWaterItems\inaction_defines.hpp"
+#include "SurvivalPack\Fncs\FoodWaterItems\inaction_titles.hpp"
+#include "SurvivalPack\fncs.sqf"
+#include "SurvivalPack\sounds.sqf"
+/*
+class CfgFunctions
+{
+	class survivalpack
+	{
+		class fncs
+		{
+			file = "SurvivalPack\Fncs\FoodWaterItems";
+
+			class config {};
+			
+			class playerInit {};
+			class doubleClickUseItem {};
+			class defineItem {};
+			class startAction {};
+			
+			class ui_inaction_onLoad {};
+			class ui_stats_onLoad {};
+			
+			class useItemFoodDrink {};
+			class useItemFuel {};
+			
+			// modules
+			class module_hungerAndThirst {};
+			class module_itemProperties {};
+			class module_strings {};
+			
+			class setItemProperties {};
+			
+			class tempObject {};
+			class playSoundGlobal {};
+		};
+		class math_fncs
+		{
+			file = "SurvivalPack\Fncs\Math";
+			class convertRange {};
+		};
+	};
+};*/
+
+// respawn 
+respawn = "BASE";
+respawnDelay = 1;
+disabledAI = 1;
+enableDebugConsole = 2;
