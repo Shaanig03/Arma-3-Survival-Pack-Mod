@@ -1,1 +1,0 @@
-//[player] call survivalpack_fnc_playerInit;
